@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-//import './App.css';
+import './Zomato.css';
 
 
 class ZomatoDisplay extends React.Component {
@@ -48,9 +48,11 @@ componentDidMount() {
     }     
     render () {
         return(
-             <div>
-                <h2>Local Restaurants: </h2>
-                <ul>{this.state.restaurantsList}</ul>
+            <div class='container'>
+             <div class='restdisplay'>
+                <h2 id='resthead'>Local Restaurants: </h2>
+                <h4 id='restlist'>{this.state.restaurantsList}</h4>
+             </div>
              </div>
             )
     }
