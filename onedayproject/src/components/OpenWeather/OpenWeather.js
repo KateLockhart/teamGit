@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React, { Component } from "./node_modules/react";
 import './OpenWeather.scss';
 
-export default class OpenWeather2 extends Component {
+export default class OpenWeather extends Component {
   constructor(props) {
     super(props);
     this.state = {

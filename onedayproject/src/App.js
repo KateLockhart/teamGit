@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 // import { render } from "react-dom";
-import OpenWeather from './components/OpenWeather/OpenWeather';
+import OpenWeather from './Components/OpenWeather/OpenWeather';
 
 class App extends Component {
   constructor(props) {
