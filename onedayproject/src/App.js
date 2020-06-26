@@ -4,7 +4,7 @@ import {render} from 'react-dom';
 import earthPic from './Assets/earth.png';
     
 import ZomatoDisplay from './Components/zomatodisplay/ZomatoDisplay';
-import OpenWeather from './components/OpenWeather/OpenWeather';
+import OpenWeather from './Components/OpenWeather/OpenWeather';
 import NASA from './Components/NASA/NASA';
     
 class App extends Component {
@@ -18,11 +18,10 @@ class App extends Component {
       <div>
         <div class='navbar'>
           <img id='earth' src={earthPic} />
-          <h2 id='title'>Here you are, but what to do?</h2>
         </div>
         <ZomatoDisplay />
         <OpenWeather />
-        <NASA />
+        <NASA /> 
         <div class='footer'>
           <p class='footNote'>
             While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy.
