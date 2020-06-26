@@ -1,8 +1,8 @@
-
 import React, {Component} from 'react';
 import './App.css';
 import {render} from 'react-dom';
 import ZomatoDisplay from './Components/zomatodisplay/ZomatoDisplay';
+import OpenWeather from './components/OpenWeather/OpenWeather';
 
 class App extends Component {
   constructor(props) {
@@ -16,6 +16,7 @@ class App extends Component {
       <div>
         <h4>Using geolocation JavaScript API in React</h4>
         <ZomatoDisplay />
+        <OpenWeather />
       </div>
     );
   }
