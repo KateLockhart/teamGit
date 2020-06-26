@@ -19,11 +19,10 @@ class App extends Component {
       <div>
         <div class='navbar'>
           <img id='earth' src={earthPic} />
-          <h2 id='title'>Here you are, but what to do?</h2>
         </div>
         <ZomatoDisplay />
         <OpenWeather />
-        <NASA />
+        <NASA /> 
         <div class='footer'>
           <p class='footNote'>
             While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy.

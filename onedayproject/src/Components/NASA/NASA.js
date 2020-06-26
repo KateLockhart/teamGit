@@ -29,7 +29,7 @@ export default class NASA extends Component {
             console.log("Longitude is :", position.coords.longitude);
             console.log("NASA component sucessfully mounted.");
 
-            fetch(`${this.state.NASAurl}?lon=${this.state.long}&lat=${this.state.lat}&dim=0.10&api_key=${this.state.key}`)
+            fetch(`${this.state.NASAurl}?lon=${this.state.long}&lat=${this.state.lat}&dim=0.05&api_key=${this.state.key}`)
             .then(res => res.json())
             .then(json => {
                 console.log(json);
