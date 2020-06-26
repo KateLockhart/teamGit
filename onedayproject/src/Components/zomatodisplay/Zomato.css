@@ -1,10 +1,11 @@
 .container {
-    padding-top: 30px;
+    padding-top: 50px;
     background-image: url('https://images.unsplash.com/photo-1527224538127-2104bb71c51b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
     height: 40vw
 }
 
 .restdisplay {
+    margin-top: 40px;
     margin-left: 33%;
     width: 33%;
     height: 200px; 
@@ -19,5 +20,6 @@
 }
 
 #restlist {
-    text-align: center
+    text-align: center;
+    font-style: italic
 }
