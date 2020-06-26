@@ -4,7 +4,7 @@ import {render} from 'react-dom';
 import earthPic from './Assets/earth.png';
     
 import ZomatoDisplay from './Components/zomatodisplay/ZomatoDisplay';
-import OpenWeather from './components/OpenWeather/OpenWeather';
+import OpenWeather from './Components/OpenWeather/OpenWeather';
 import NASA from './Components/NASA/NASA';
     
 class App extends Component {
