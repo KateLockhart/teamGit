@@ -1,12 +1,13 @@
-import React, { Component } from "react";
+import React, { Component } from "./node_modules/react";
 import './OpenWeather.scss';
 
-export default class OpenWeather2 extends Component {
+export default class OpenWeather extends Component {
   constructor(props) {
     super(props);
     this.state = {
       long: null,
       lat: null,
+      key: 'e68335ef1d406676c5ad4ff953c96ca0',
       temp: null,
     };
   }
@@ -18,7 +19,7 @@ export default class OpenWeather2 extends Component {
           lat: position.coords.latitude,
         });
         fetch(
-          `https://api.openweathermap.org/data/2.5/weather?lat=${this.state.lat}&lon=${this.state.long}&appid=${process.env.REACT_APP_WEATHER_KEY}`
+          `https://api.openweathermap.org/data/2.5/weather?lat=${this.state.lat}&lon=${this.state.long}&appid=${this.state.key}`
         )
           .then((value) => {
             return value.json();
