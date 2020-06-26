@@ -1,25 +1,28 @@
 .container {
     padding-top: 50px;
     background-image: url('https://images.unsplash.com/photo-1527224538127-2104bb71c51b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
-    height: 40vw
+    height: 40vw;
 }
 
 .restdisplay {
-    margin-top: 40px;
-    margin-left: 33%;
-    width: 33%;
-    height: 200px; 
+    margin-top: -5px;
+    margin-left: 40%;
+    width: 20%;
+    height: 600px; 
     background-color: #f2f3f4;
-    border-radius: 10px
+    border-radius: 10px;
+    border: 2px solid red;
 }
 
 #resthead {
-    padding-top: 30px;
+    padding-top: 10px;
+    font-size: 40px;
     text-align: center
 
 }
 
 #restlist {
     text-align: center;
-    font-style: italic
+    font-style: italic;
+    font-size: 30px;
 }

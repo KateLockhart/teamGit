@@ -17,19 +17,19 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div class='navbar'>
+        <nav class='navbar'>
           <img id='earth' src={earthPic} />
-        </div>
+        </nav>
         <ZomatoDisplay />
         <OpenWeather />
         <NASA /> 
-        <div class='footer'>
+        <footer>
           <p class='footNote'>
             While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy.
             Copyright 2020 by 404 Team Not Found Co. All Rights Reserved.
           </p> 
           <p class='footNote'>Powered by Legacy React, Sass, and Web Dev Student Tears.</p>
-        </div>
+        </footer>
       </div>
     );
   }
