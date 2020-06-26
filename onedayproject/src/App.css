@@ -13,7 +13,6 @@ body {
   width: 100%;
   top: 0;
   height: 70px;
-  background-color: white;
 }
 
 #earth {
@@ -30,11 +29,10 @@ body {
 
 }
 
-.footer {
+footer {
   bottom: 0;
   background-color: white;
   width: 100%;
-  position: absolute;
   height: 60px;
   text-align: center;
 }
