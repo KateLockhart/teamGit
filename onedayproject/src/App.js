@@ -1,12 +1,26 @@
-import React from 'react';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+import React, {Component} from 'react';
+import './App.css';
+import {render} from 'react-dom';
+import ZomatoDisplay from './Components/zomatodisplay/ZomatoDisplay';
+
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+    };
+  }
+
+  render() {
+    return (
+      <div>
+        <h4>Using geolocation JavaScript API in React</h4>
+        <ZomatoDisplay />
+      </div>
+    );
+  }
 }
+
+//render(<App />, document.getElementById("root"));
 
 export default App;
