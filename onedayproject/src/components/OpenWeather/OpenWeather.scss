@@ -1,0 +1,52 @@
+.OpenWeather {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weatherDiv {
+    background: url('https://images.unsplash.com/photo-1530908295418-a12e326966ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80');
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 400px;
+    min-height: 364px;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0px 10px #111;
+}
+
+h1 {
+  color: slateblue;
+  text-shadow: 1px 1px royalblue;
+  font-family: 'Impact';
+}
+
+p {
+  color: palevioletred;
+  font-size: 40px;
+  text-shadow: 1px 1px rgb(206, 77, 206);
+}
+
+h3 {
+  color: palevioletred;
+  font-size: 35px;
+  text-shadow: 1px 1px rgb(206, 77, 206);
+  font-family: 'Impact';
+}
+
+button {
+  height: 40px;
+  width: 150px;
+  margin-left: 30%;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: rgb(66, 46, 196);
+  background-color: violet;
+  font-family: 'Impact';
+  font-weight: 100;
+}

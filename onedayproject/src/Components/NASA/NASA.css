@@ -1,0 +1,29 @@
+#nasaDiv {
+    margin-top: 5px;
+    margin-bottom: 200px;
+    margin-left: 30%;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid black;
+    width: 40%;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/first-aid-kit.png");
+    border-radius: 5px;
+}
+
+#apiReturn {
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+    image-rendering: optimizeQuality;
+}
+
+#nasah2 {
+    background-color: white;
+}
+
+hr {
+    background-color: white;
+    height: 24px;
+    border: none;
+}
