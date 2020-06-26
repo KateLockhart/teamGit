@@ -37,6 +37,7 @@ componentDidMount() {
             let i = 0;
             while(i < jsonData.length) {
                 const list = this.state.restaurantsList.slice();
+                document.getElementById('restlist').innerHTML = list.toString();
                 list[i] = jsonData[i].restaurant.name;
                 this.setState({
                     restaurantsList: list
