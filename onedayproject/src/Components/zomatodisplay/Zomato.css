@@ -1,0 +1,23 @@
+.container {
+    padding-top: 30px;
+    background-image: url('https://images.unsplash.com/photo-1527224538127-2104bb71c51b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
+    height: 40vw
+}
+
+.restdisplay {
+    margin-left: 33%;
+    width: 33%;
+    height: 200px; 
+    background-color: #f2f3f4;
+    border-radius: 10px
+}
+
+#resthead {
+    padding-top: 30px;
+    text-align: center
+
+}
+
+#restlist {
+    text-align: center
+}

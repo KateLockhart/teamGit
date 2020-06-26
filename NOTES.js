@@ -1,10 +1,11 @@
 // API ENDPOINTS / KEYS / INFO
 
 // ZOMATO API
+//lat===39.8613796
+//long===-86.1343045
+//Key: c825c5b61f911dd1a282eef5b7f429b0
 
-/* 
-Key: c825c5b61f911dd1a282eef5b7f429b0
-
+/*
 Example/Request URL: https://developers.zomato.com/api/v2.1/geocode?lat=40.742051&lon=-74.004821
 
 Curl: curl -X GET --header "Accept: application/json" --header "user-key: c825c5b61f911dd1a282eef5b7f429b0" 

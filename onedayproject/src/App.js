@@ -1,10 +1,12 @@
-import React, { Component } from "react";
-import { render } from "react-dom";
+import React, {Component} from 'react';
 import './App.css';
+import {render} from 'react-dom';
 import earthPic from './Assets/earth.png';
-
+    
+import ZomatoDisplay from './Components/zomatodisplay/ZomatoDisplay';
+import OpenWeather from './components/OpenWeather/OpenWeather';
 import NASA from './Components/NASA/NASA';
-
+    
 class App extends Component {
   constructor(props) {
     super(props);
@@ -18,6 +20,8 @@ class App extends Component {
           <img id='earth' src={earthPic} />
           <h2 id='title'>Here you are, but what to do?</h2>
         </div>
+        <ZomatoDisplay />
+        <OpenWeather />
         <NASA />
         <div class='footer'>
           <p class='footNote'>
