@@ -2,6 +2,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import {render} from 'react-dom';
+import ZomatoDisplay from './Components/zomatodisplay/ZomatoDisplay';
 
 class App extends Component {
   constructor(props) {
@@ -10,33 +11,16 @@ class App extends Component {
     };
   }
 
-  componentDidMount() {
-    navigator.geolocation.getCurrentPosition(function(position) {
-      console.log("Latitude is :", position.coords.latitude);
-      console.log("Longitude is :", position.coords.longitude);
-    });
-  }
-
   render() {
     return (
       <div>
         <h4>Using geolocation JavaScript API in React</h4>
+        <ZomatoDisplay />
       </div>
     );
   }
 }
 
-render(<App />, document.getElementById("root"));
-
-import React from 'react';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
-}
+//render(<App />, document.getElementById("root"));
 
 export default App;
